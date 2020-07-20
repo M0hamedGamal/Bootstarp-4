@@ -1,0 +1,56 @@
+body {
+    background: #000000;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#mainNavbar a {
+    color: #00d9e4;
+    padding: 0;
+    text-align: center;
+    font-size: 1.1rem;
+    margin: 0.5rem 2rem 1rem 2rem;
+}
+
+#mainNavbar a:hover {
+    color: #ffffff;
+    background: #00d9e4;
+    box-shadow: 0 0 5px #00d9e4, 
+				0 0 25px #00d9e4, 
+				0 0 50px #00d9e4, 
+				0 0 100px #00d9e4;
+}
+
+#mainNavbar .navbar-brand {
+    margin-right: 0;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 1390px) {
+    #mainNavbar a {
+        font-size: 1rem !important;
+        margin: 0.5rem 0.9rem 1rem 0.9rem;
+    }
+    #mainNavbar .navbar-brand {
+        font-size: 1.5rem !important;
+        width: 4.5rem;
+        margin: 0.5rem 1.5rem 1rem 1.5rem;
+    }
+}
+
+mainNavbar a.anchor {
+    display: block;
+    position: relative;
+    top: -50px;
+    visibility: hidden;
+}
+p {
+	font-size: 1.5rem;
+}
+.Education-WorkExperience p  {
+	font-size: 1.2rem;
+}
+
+a {
+	color: #17a2b8;
+	font-size: 1.5rem;
+}
